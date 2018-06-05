@@ -4,7 +4,7 @@ INSTALLATION
 ------------
 
 Install command:
-`$ yarn install`
+`$ npm install`
 
 Command list: 
 
