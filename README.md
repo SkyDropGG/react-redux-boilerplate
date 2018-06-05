@@ -8,6 +8,6 @@ Install command:
 
 Command list: 
 
-      $ yarn start           start dev server (default port 3000)
-      $ yarn build:prod      build prod (target path './dist')
-      $ yarn build:stage     build prod (target path './dist')
+      $ npm start           start dev server (default port 3000)
+      $ npm build:prod      build prod (target path './dist')
+      $ npm build:stage     build prod (target path './dist')
