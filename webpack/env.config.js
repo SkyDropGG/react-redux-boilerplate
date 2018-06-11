@@ -39,7 +39,7 @@ class WebpackEnv {
       case 'dev':
         plugins = plugins.concat([
           new webpack.HotModuleReplacementPlugin(),
-          new webpack.ContextReplacementPlugin(/moment[\/\\]locale$/, /nb/),
+          new webpack.ContextReplacementPlugin(/moment[\/\\]locale$/, /nb/)
         ]);
         break;
       case 'stage':
