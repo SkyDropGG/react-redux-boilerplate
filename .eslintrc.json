@@ -55,7 +55,6 @@
     "no-unused-expressions": "error",
     "no-useless-call": "error",
     "no-useless-concat": "error",
-    "no-useless-escape": "error",
     "no-void": "error",
     "no-with": "error",
     "radix": ["error", "as-needed"],
