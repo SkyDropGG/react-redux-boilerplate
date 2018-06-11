@@ -7,7 +7,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 class WebpackEnv {
 
-  static getPluginsByEnv(globals) {
+  static getPlugins(globals) {
     const env = globals.__ENV__;
     let plugins = [
       new webpack.DefinePlugin({webpackGlobal: JSON.stringify(globals)}),
@@ -105,7 +105,7 @@ class WebpackEnv {
     return entry;
   }
 
-  static getDevtool (env) {
+  static getDevtool(env) {
     let devtool = '';
     switch (env) {
       case 'dev':
