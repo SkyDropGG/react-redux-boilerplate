@@ -34,14 +34,14 @@ module.exports = {
       },
       {
         test: /\.scss|css$/,
-        use: ExtractTextPlugin.extract({
+        use: ['css-hot-loader'].concat(ExtractTextPlugin.extract({
           fallback: 'style-loader',
           use: [
             cssLoader,
             'resolve-url-loader',
             'sass-loader'
           ]
-        })
+        }))
       },
       {
         test: /\.(jpe?g|png|gif|svg)$/i,
